@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(90deg, rgb(231, 140, 140) 0%, rgb(192, 79, 79) 100%);
+    font-family: Tahoma;
+}
+
+main {
+    text-align: center;
+    animation-name: grow;
+    animation-duration: 1500ms;
+}
+
+img {
+    width: 55%;
+    height: 35%;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 999px) {
+    img {
+        width: 80%;
+        height: 155px;
+    }
+}
