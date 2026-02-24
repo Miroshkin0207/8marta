@@ -8,9 +8,10 @@ script.onload = () => {
     snowStorm.zIndex = 2;
     if (matchMedia("(max-width: 999px)").matches)
     {
-        snowStorm.flakesMax = 5;
+        snowStorm.flakesMax = 15;
     }
 
 }
+
 
 
