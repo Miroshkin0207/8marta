@@ -5,11 +5,12 @@ document.body.appendChild(script);
 script.onload = () => {
     snowStorm.snowCharacter = "🌸";
     snowStorm.excludeMobile = false;
-    snowStor.zIndex = 2;
+    snowStorm.zIndex = 2;
     if (matchMedia("(max-width: 999px)").matches)
     {
         snowStorm.flakesMax = 5;
     }
 
 }
+
 
