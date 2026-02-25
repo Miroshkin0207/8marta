@@ -19,7 +19,13 @@ button:hover {
 }
 
 main {
-@@ -14,6 +29,35 @@ img {
+    text-align: center;
+    animation-name: grow;
+    animation-duration: 1500ms;
+}
+
+img {
+    width: 55%;
     height: 35%;
 }
 
@@ -55,7 +61,17 @@ main {
 @keyframes grow {
     from {
         transform: scale(0);
-@@ -31,4 +75,9 @@ img {
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 999px) {
+    img {
         width: 80%;
         height: 155px;
     }
